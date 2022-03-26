@@ -6,7 +6,7 @@ Gomen-nee Onii-chan
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /Ngeselin/i
+handler.customPrefix = /Wibu/i
 handler.command = new RegExp
 
 module.exports = handler
