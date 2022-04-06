@@ -422,7 +422,7 @@ handler.command = /^(menu|ilman|help|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
-handler.register = true
+handler.register = false
 handler.private = false
 
 handler.admin = false
