@@ -108,7 +108,7 @@ module.exports = {
           if (!('antiBadword' in chat)) chat.antiBadword = true
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: false,
+          welcome: true
           detect: false,
           sWelcome: '',
           sBye: '',
@@ -143,7 +143,7 @@ module.exports = {
           backup: false,
           backupDB: 0,
           groupOnly: false,
-          jadibot: false,
+          jadibot: true,
           nsfw: true,
           status: 0,
         }
@@ -490,8 +490,8 @@ ketik *.on delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Ilman*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Ilman*_',
+    rowner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_',
+    owner: 'Perintah ini hanya dapat digunakan oleh _*owner*_',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Admin Shiraori*_',
     premium: 'Perintah ini hanya untuk pengguna _*Premium*_',
     group: 'Perintah ini hanya dapat digunakan di grup',
