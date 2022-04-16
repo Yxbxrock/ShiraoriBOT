@@ -108,7 +108,7 @@ module.exports = {
           if (!('antiBadword' in chat)) chat.antiBadword = true
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: false
+          welcome: true,
           detect: false,
           sWelcome: '',
           sBye: '',
