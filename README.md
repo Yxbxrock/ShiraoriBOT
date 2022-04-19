@@ -14,7 +14,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ilmanhdyt/ShiraoriBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yxbxrock/ShiraoriBOTZ)
 
 [![Grup WhatsApp](https://img.shields.io/badge/GroupWhatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/D7TmQm7UcfIBELBux19kIA)
 
